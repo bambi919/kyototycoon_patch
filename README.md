@@ -1,5 +1,5 @@
 # kyototycoon_patch
-kyototycoon patch on AmazonLinux2
+kyototycoon-0.9.56 patch on AmazonLinux2
 
 ### ktulog.h
 ```
