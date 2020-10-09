@@ -1,0 +1,11 @@
+--- ktulog.h	2020-10-09 10:55:33.831043969 +0900
++++ ktulog.h	2020-10-09 11:04:53.312074167 +0900
+@@ -48,7 +48,7 @@
+   /* The accuracy of logical time stamp. */
+   static const uint64_t TSLACC = 1000 * 1000;
+   /* The waiting seconds of auto flush. */
+-  static const double FLUSHWAIT = 0.1;
++  constexpr static const double FLUSHWAIT = 0.1;
+  public:
+   /**
+    * Reader of update logs.

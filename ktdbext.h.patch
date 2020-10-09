@@ -1,0 +1,10 @@
+--- ktdbext.h	2020-10-09 10:55:33.914046793 +0900
++++ ktdbext.h	2020-10-09 10:55:33.920046997 +0900
+@@ -21,6 +21,7 @@
+ #include <ktulog.h>
+ #include <ktshlib.h>
+ #include <kttimeddb.h>
++#include <unistd.h>
+ 
+ namespace kyototycoon {                  // common namespace
+ 
