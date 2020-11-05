@@ -38,3 +38,15 @@ ktremotedb.h:484:16: error: cannot convert ‘bool’ to ‘char*’ in return
          return false;
                 ^~~~~
 ```
+
+
+# kyotocabinet_patch
+kyotocabinet-1.2.76 patch on AmazonLinux2
+### kcdbext.h
+```
+kcdbext.h: In member function ‘char* kyotocabinet::IndexDB::get(const char*, size_t, size_t*)’:
+kcdbext.h:1281:14: error: cannot convert ‘bool’ to ‘char*’ in return
+       return false;
+              ^~~~~
+make: *** [kcdbext.o] Error 1
+```
